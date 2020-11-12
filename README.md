@@ -1,5 +1,25 @@
 # Ng8
 
+## Prepare
+New angular project by ng.
+`ng new ng8 --routing --style css`
+`cd ng8`
+
+`vi src/manifrest.json`
+```json
+{
+    "name": "ng8 Extension",
+    "version": "1.0",
+    "description": "Build an Extension with Angular",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}
+```
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
